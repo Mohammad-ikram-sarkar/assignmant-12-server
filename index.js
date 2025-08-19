@@ -209,8 +209,6 @@ app.get('/api/pickup' , async (req , res) => {
   }
 })
 
-
-// Create Payment Intent
     app.post('/charity/create-payment-intent', async (req, res) => {
       try {
         const { userEmail } = req.body;
